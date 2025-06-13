@@ -22,7 +22,7 @@ L’utilisateur peut soumettre un UUID via api/verify.
 
 
 # Technologies utilisées : 
-Java 17+
+ +Java 21
 
 + Spring Boot 3.5.0
 
