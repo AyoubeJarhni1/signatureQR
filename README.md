@@ -6,13 +6,13 @@ Concevoir une API Spring Boot qui permet la signature  de documents à l’aide 
 
 
 # Fonctionnalités implémentées
-# # 1. Génération de signature et QR code:
+# #  Génération de signature et QR code:
 L’utilisateur peut signer un document via api/signer en donnant son nom et prenom .
 + Un UUID unique est généré pour chaque nouveau document signé .
 + Un QR code est crée à partir de ce UUID (format PNG), renvoyé en Base64 pour affichage dans une page HTML ou un client mobile.
 + Les informations nom, prénom, date de signature, et UUID sont enregistrées dans une base de données.
 
-# # 2. Vérification du document signé:
+# #  Vérification du document signé:
 L’utilisateur peut soumettre un UUID via api/verify.
 + La vérification se fait selon :
    ### le nombre de vérifications déjà faites (>5 document expiré )
