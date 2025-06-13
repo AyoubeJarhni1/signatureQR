@@ -36,9 +36,10 @@ L’utilisateur peut soumettre un UUID via api/verify.
 
 # endpoints 
 
-➕  POST /api/signer : 
-
+➕  POST /api/signature : 
 ### Requete JSON :
+http://localhost:8080/api/signature
+
 {
   "nom": "Ayoub",
   "prenom": "Jarhni"
@@ -50,11 +51,10 @@ L’utilisateur peut soumettre un UUID via api/verify.
 }
 
 
-➕   GET /api/verify?uuid={uuid} : 
+➕   GET /api/signature/{id} : 
 
 ### Requete JSON :
-http://localhost:8080/api/verify?uuid=0a08412b-2d20-42d6-9499-391998b51a95
-
+http://localhost:8080/api/signature/3a9b5717-0634-466f-968d-da66bb723ecb
 ### Réponse JSON :
 
 {
