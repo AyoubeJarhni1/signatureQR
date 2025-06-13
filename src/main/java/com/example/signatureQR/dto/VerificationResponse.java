@@ -1,4 +1,4 @@
-package com.example.signatureQR.DTO;
+package com.example.signatureQR.dto;
 
 public class VerificationResponse {
     private String nom;

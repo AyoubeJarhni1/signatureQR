@@ -1,9 +1,4 @@
-package com.example.signatureQR.DTO;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
+package com.example.signatureQR.dto;
 
 
 public class SignatureRequest {
