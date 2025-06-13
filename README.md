@@ -50,7 +50,7 @@ L’utilisateur peut soumettre un UUID via api/verify.
 }
 
 
-➕   GET /api/document/verify?uuid={uuid} : 
+➕   GET /api/verify?uuid={uuid} : 
 
 ### Requete JSON :
 http://localhost:8080/api/verify?uuid=0a08412b-2d20-42d6-9499-391998b51a95
